@@ -1,0 +1,71 @@
+{
+    "name": "vue-express-framwork",
+    "version": "1.0.0",
+    "description": "A vue express framwork base project.",
+    "author": "Darebeat",
+    "private": true,
+    "scripts": {
+        "dev": "node bin/dev-server.js",
+        "build": "npm run clean && node bin/build.js",
+        "clean": "rm -rf dist"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/wowtous/vue-express-framwork.git"
+    },
+    "keywords": [
+        "vue",
+        "express",
+        "vue-router",
+        "vuex",
+        "framwork"
+    ],
+    "bugs": {
+        "url": "https://github.com/wowtous/vue-express-framwork/issues"
+    },
+    "homepage": "https://github.com/wowtous/vue-express-framwork#readme",
+    "dependencies": {
+        "body-parser": "^1.16.0",
+        "cookie-parser": "^1.4.3",
+        "element-ui": "^1.2.4",
+        "express": "^4.13.3",
+        "express-session": "^1.14.2",
+        "lodash": "^4.17.4",
+        "moment": "^2.17.1",
+        "request": "^2.4.20",
+        "vue": "^2.1.0",
+        "vue-resource": "^1.0.3",
+        "vue-router": "^2.1.1",
+        "vuex": "^2.2.1"
+    },
+    "devDependencies": {
+        "autoprefixer": "^6.4.0",
+        "babel-core": "^6.0.0",
+        "babel-eslint": "^7.0.0",
+        "babel-loader": "^6.0.0",
+        "babel-preset-latest": "^6.24.1",
+        "connect-history-api-fallback": "^1.1.0",
+        "css-loader": "^0.25.0",
+        "eslint-friendly-formatter": "^2.0.7",
+        "eventsource-polyfill": "^0.9.6",
+        "extract-text-webpack-plugin": "^1.0.1",
+        "file-loader": "^0.11.1",
+        "html-webpack-plugin": "^2.8.1",
+        "http-proxy-middleware": "^0.17.2",
+        "opn": "^4.0.2",
+        "ora": "^0.3.0",
+        "shelljs": "^0.7.4",
+        "url-loader": "^0.5.7",
+        "vue-loader": "^10.0.0",
+        "vue-style-loader": "^1.0.0",
+        "vue-template-compiler": "^2.1.0",
+        "webpack": "^1.13.2",
+        "webpack-dev-middleware": "^1.8.3",
+        "webpack-hot-middleware": "^2.12.2",
+        "webpack-merge": "^0.14.1"
+    },
+    "engines": {
+        "node": ">= 6",
+        "npm": ">= 3"
+    }
+}
